@@ -1,0 +1,25 @@
+.sidebar {
+  height: 100vh;
+  background: #eeeeee;
+  border-radius: 0 20px 20px 0;
+}
+
+.sidebar .link {
+  padding: 15px 20%;
+  color: #434343;
+  border-radius: 20px;
+}
+
+.sidebar .alink {
+  padding: 15px 20%;
+  background-color: #906565;
+  color: white;
+  border-radius: 20px;
+}
+
+.sidebar .link:hover {
+  background-color: #906565;
+  color: white;
+}
+
+/* Optionally add more styles as needed */
