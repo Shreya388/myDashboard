@@ -19,7 +19,7 @@ const Sidebar = () => {
       <Nav.Link className="link" href="#about"><FontAwesomeIcon icon={faCalendar} /> Calender</Nav.Link>
       <Nav.Link className="alink" href="#services"><FontAwesomeIcon icon={faCartShopping} /> Ecommerce</Nav.Link>
       <Nav.Link className="link" href="#home"><FontAwesomeIcon icon={faBookmark} /> Bookmarks</Nav.Link>
-      <Nav.Link className="link" href="#about"><FontAwesomeIcon icon={faContactBook} /> Contacts</Nav.Link>
+      <Nav.Link className="link" href="#about"><FontAwesomeIcon icon={faContactBook} /> Contact</Nav.Link>
       <Nav.Link className="link" href="#services"><FontAwesomeIcon icon={faUser} /> Users</Nav.Link>
       
     </Nav>
