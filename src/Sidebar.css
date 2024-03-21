@@ -1,25 +1,28 @@
 .sidebar {
   height: 100vh;
-  background: #eeeeee;
-  border-radius: 0 20px 20px 0;
+  background: #bb3b3b;
 }
 
 .sidebar .link {
   padding: 15px 20%;
-  color: #434343;
-  border-radius: 20px;
+  color: #ffffff;
+  border-radius: 15px;
 }
 
 .sidebar .alink {
   padding: 15px 20%;
-  background-color: #906565;
-  color: white;
-  border-radius: 20px;
+  background-color: #d94d4d;
+  color: rgb(255, 255, 255);
+  border-radius: 15px;
 }
 
 .sidebar .link:hover {
-  background-color: #906565;
-  color: white;
+  background-color: #d94d4d;
+  color: rgb(255, 255, 255);
+}
+
+svg{
+  padding-right: 5px;
 }
 
 /* Optionally add more styles as needed */
