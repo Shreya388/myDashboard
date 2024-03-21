@@ -42,8 +42,8 @@ const Section = ({ img, title, description, price }) => (
 const Header = () => (
     <div className="p-4">
         <div className="Topbar">
-            <h3>Welcome Alex</h3>
-            <small><p>Here's what's happening with your Store today</p></small>
+            <h3>Welcome</h3>
+            <small><p>Best Selling Products</p></small>
         </div>
         <br /><br /><br />
 
