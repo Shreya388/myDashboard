@@ -1,0 +1,10 @@
+.order-card{
+    box-shadow: 3px 4px 5px -3px rgba(179,179,179,1); 
+    border: 1px solid #eee;
+}
+
+.stats-card{
+    height: 460px; 
+    border: 1px solid #eee; 
+    box-shadow: 3px 4px 5px -3px rgba(179,179,179,1);
+}

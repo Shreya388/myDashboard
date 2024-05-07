@@ -1,0 +1,132 @@
+p{
+    color: rgb(155, 155, 155);
+}
+
+hr{
+    color: grey;
+}
+
+.price{
+    color:black;
+}
+
+.card-image{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card-box{
+    border-radius: 11px;
+    border: 1px solid rgb(235, 235, 235) !important;
+}
+
+h4{
+    font-size: 20px;
+}
+
+.Topbar{
+    padding-top: 10px;
+    z-Index: 1; 
+    background: #ffffff !important; 
+    color: black !important;
+    border-bottom: 1px solid #fafafa;
+    box-shadow: 5px 6px 5px -7px rgba(0, 0, 0, 0.267);
+
+}
+/* Search */
+.search-box{
+    border: 0;
+    width: 100%;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+    padding-left: 30px !important;
+    padding-right: 50px !important;
+    border-radius: 5px !important;
+    cursor: pointer;
+    background: #f5f5f5 !important;
+    color: white;
+}
+
+.search-box:hover{
+    background-color: rgb(243, 243, 243) !important;
+}
+
+.search-box:focus{
+    background-color: rgb(241, 241, 241) !important;
+    color: black;
+}
+
+.filter{
+    border: 1px solid #dadada;
+    background-color: white;
+    padding: 13px 30px;
+    border-radius: 10px;
+    width: 100%;
+    cursor: pointer;
+    color: black;
+    text-align: left;   
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+}
+
+.filter:hover{
+    background-color: white;
+    border: 1px solid #dadada;
+    color: black;
+}
+
+ input[type=text]:focus{
+    border: 0 !important;
+    outline: 0 !important;
+    border: 1px solid #dadada;
+ }
+
+ .filter{
+    outline: 0 !important;
+ }
+
+ .user{
+    background: transparent;
+    color: #242424;
+    border: 0;
+    text-align: left;
+ }
+
+ .user:hover{
+    background: transparent;
+    color: #242424;
+    border: 0;
+ }
+
+
+.product-search{
+    width:100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    padding-right: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #dadada;
+}
+
+ .search-btn{
+    background: transparent;
+    border: 0;
+    color: #888888;
+    margin-left: -40px;
+ }
+
+ .search-btn2{
+    background: transparent;
+    border: 0;
+    color: #666;
+    margin-left: -50px;
+ }
+
+ .user-img{
+    height: 40px; width: 40px; margin-top: -5px; border-radius:50%; 
+ }
+
+ .Heading{
+    margin-left: 20px !important;
+ }

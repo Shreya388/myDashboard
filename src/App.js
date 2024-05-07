@@ -1,23 +1,29 @@
 import './App.css';
-import Header from './Header';
-import Sidebar from './Sidebar';
-import { Col, Row, Container } from 'react-bootstrap';
-
+import Ecommerce from './Pages/Ecommerce';
+import { Row, Container, Col } from 'react-bootstrap';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './Pages/Home';
+import Sidebar from './components/Sidebar';
+import Topbar from './components/Topbar';
 
 function App() {
   return (
-    <div className="App">
-      <Container fluid>
-        <Row>
-          <Col sm={3} md={4} lg={2} className="sidebar sticky-md-top">
+    <BrowserRouter>
+      <div className="App">
+        <Container fluid>
+          <Row>
             <Sidebar />
-          </Col>
-          <Col sm={9} md={8} lg={10} className="">
-            <Header />
-          </Col>
-        </Row>
-      </Container>
-    </div>
+            <Col sm={8} md={8} lg={10} className="pl-0 pr-0">
+            <Topbar />
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/ecommerce" element={<Ecommerce />} />
+            </Routes>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+    </BrowserRouter>
   );
 }
 

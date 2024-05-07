@@ -1,3 +1,42 @@
 body{
-    background-color: #f2f2f2;
+    background-color: #f7f7f7;
+}
+
+@font-face {
+    font-family: Poppins-bold;
+    src: url(./Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: Poppins-light;
+    src: url(Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(Poppins-Regular.ttf);
+}
+
+*{
+    border-radius: 0px !important;
+}
+
+a{
+    font-family: Poppins;
+    font-size: 14px !important;
+}
+
+
+p{
+    color: rgb(71, 71, 71) !important;
+    font-family: Poppins !important;
+    font-size: 14px;
+}
+
+h4{
+    font-family: Poppins-bold !important;
+}
+
+h3{
+    font-family: Poppins-bold !important;
 }
