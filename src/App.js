@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './Pages/Home';
 import Sidebar from './components/Sidebar';
 import Topbar from './components/Topbar';
+import MyCalender from './Pages/Calender';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/ecommerce" element={<Ecommerce />} />
+              <Route path="/calender" element={<MyCalender />} />
             </Routes>
             </Col>
           </Row>
