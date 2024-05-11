@@ -1,3 +1,7 @@
+.ecommerce{
+    margin-top: 100px !important;
+}
+
 p{
     color: rgb(155, 155, 155);
 }
@@ -30,6 +34,8 @@ h4{
     color: black !important;
     border-bottom: 1px solid #fafafa;
     box-shadow: 5px 6px 5px -7px rgba(0, 0, 0, 0.267);
+    position: fixed;
+    width: 100%;
 
 }
 /* Search */
@@ -42,16 +48,16 @@ h4{
     padding-right: 50px !important;
     border-radius: 5px !important;
     cursor: pointer;
-    background: #f5f5f5 !important;
+    background: #fafafa !important;
     color: white;
 }
 
 .search-box:hover{
-    background-color: rgb(243, 243, 243) !important;
+    background-color: #fafafa !important;
 }
 
 .search-box:focus{
-    background-color: rgb(241, 241, 241) !important;
+    background-color: #fafafa !important;
     color: black;
 }
 

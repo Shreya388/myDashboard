@@ -8,3 +8,7 @@
     border: 1px solid #eee; 
     box-shadow: 3px 4px 5px -3px rgba(179,179,179,1);
 }
+
+.dashboard{
+    margin-top: 100px;
+}

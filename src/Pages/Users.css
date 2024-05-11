@@ -1,0 +1,43 @@
+.users{
+    margin-top: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.users-table {
+    width: 95%;
+    border-collapse: collapse;
+    margin: auto;
+    color: #444;
+    background: transparent;
+}
+
+.users-table th,
+.users-table td {
+    padding: 20px 8px;
+    border-bottom: 1px solid #ddd;
+    background-color: transparent;
+    font-weight: 300;
+    padding-left: 20px;
+}
+
+.users-table th {
+    /* background-color: #f2f2f2; */
+    background-color: transparent;
+    text-align: left;
+    font-weight: 400;
+    padding-left: 20px;
+}
+
+.users-table tbody tr:nth-child(even) {
+    background-color: transparent;
+}
+
+.users-table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.form-check-input{
+    border-radius: 5px !important;
+    border: 1px solid #bbbbbb;
+}

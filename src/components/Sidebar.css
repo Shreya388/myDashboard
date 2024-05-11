@@ -7,17 +7,18 @@
   padding: 15px 10%;
   color: #ffffff;
   border-radius: 15px;
+  text-decoration: none;
 }
 
-.sidebar .alink {
+.sidebar .link:focus{
   padding: 15px 10%;
-  background-color: #303030;
+  background-color: rgba(58, 58, 58, 0.904);
   color: rgb(255, 255, 255);
   border-radius: 15px;
 }
 
 .sidebar .link:hover {
-  background-color: #1d1d1d85;
+  background-color: #303030;
   color: rgb(255, 255, 255);
 }
 

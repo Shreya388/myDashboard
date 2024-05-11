@@ -5,7 +5,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './Pages/Home';
 import Sidebar from './components/Sidebar';
 import Topbar from './components/Topbar';
-import MyCalender from './Pages/Calender';
+import MyCalendar from './Pages/Calender';
+import Users from './Pages/Users';
+import Contacts from './Pages/Contacts';
 
 function App() {
   return (
@@ -14,12 +16,14 @@ function App() {
         <Container fluid>
           <Row>
             <Sidebar />
-            <Col sm={8} md={8} lg={10} className="pl-0 pr-0">
+            <Col sm={8} md={8} lg={10} className="p-0">
             <Topbar />
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/ecommerce" element={<Ecommerce />} />
-              <Route path="/calender" element={<MyCalender />} />
+              <Route path="/calender" element={<MyCalendar />} />
+              <Route path="/contacts" element={<Contacts />} />
+              <Route path="/users" element={<Users />} />
             </Routes>
             </Col>
           </Row>

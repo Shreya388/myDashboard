@@ -36,14 +36,14 @@ const Home = () => {
     datasets: [{
       label: 'Dataset',
       data: [900, 90, 300, 200, 400, 500, 600, 700, 800, 1000],
-      backgroundColor: ['#74A662'],
-      borderColor: ['#74A662'],
+      backgroundColor: ['#ffa0a0'],
+      borderColor: ['#ffa0a0'],
       borderWidth: 0
     }]
   };
 
   return (
-      <div style={{ }}>
+      <div className="dashboard">
         <Container className="mx-auto">
           <h5 className="pt-4 pb-3">Dashboard</h5>
           <Row>

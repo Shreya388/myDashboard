@@ -3,14 +3,12 @@ import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 import "./Calender.css";
 
-const MyCalender = () => {
+const MyCalendar = () => {
     return (
-        <>
-            <div>
+            <div className='MyCalendar'>
                 <Calendar calendarType="gregory" />
             </div>
-        </>
     );
 }
 
-export default MyCalender;
+export default MyCalendar;

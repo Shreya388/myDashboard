@@ -13,16 +13,16 @@ const Sidebar = () => {
         <br />
         <img src={logo} draggable="false" style={{ height: "105px", width: "100px", margin: "auto" }} alt="logo" />
         <br />
-        <Link to="/" style={{ color: "white", textDecoration: "none" }}><Nav.Link className="link" href="#home"><FontAwesomeIcon icon={faHouse} /> Dashboard</Nav.Link></Link>
+        <Link to="/" className="link"><FontAwesomeIcon icon={faHouse} /> Dashboard</Link>
         <Nav.Link className="link" href="#about"><FontAwesomeIcon icon={faRectangleList} /> Widgets</Nav.Link>
         <Nav.Link className="link" href="#services"><FontAwesomeIcon icon={faTableCellsLarge} /> Page Layout</Nav.Link>
         <hr />
         <Nav.Link className="link" href="#home"><FontAwesomeIcon icon={faDiagramProject} /> Projects</Nav.Link>
-        <Link to="/calender" style={{ color: "white", textDecoration: "none" }}><Nav.Link className="link" href="#about"><FontAwesomeIcon icon={faCalendar} /> Calender</Nav.Link></Link>
-        <Link to="/ecommerce" style={{ color: "white", textDecoration: "none" }}><Nav.Link className="alink" href="#services"><FontAwesomeIcon icon={faCartShopping} /> Ecommerce</Nav.Link></Link>
+        <Link to="/calender" className="link"><FontAwesomeIcon icon={faCalendar} /> Calender</Link>
+        <Link to="/ecommerce" className="link"><FontAwesomeIcon icon={faCartShopping} /> Ecommerce</Link>
         <Nav.Link className="link" href="#home"><FontAwesomeIcon icon={faBookmark} /> Bookmarks</Nav.Link>
-        <Nav.Link className="link" href="#about"><FontAwesomeIcon icon={faContactBook} /> Contact</Nav.Link>
-        <Nav.Link className="link" href="#services"><FontAwesomeIcon icon={faUser} /> Users</Nav.Link>
+        <Link to="/contacts" className="link"><FontAwesomeIcon icon={faContactBook} /> Contact</Link>
+        <Link to="/users" className="link"><FontAwesomeIcon icon={faUser} /> Users</Link>
       </Nav>
     </Col>
   );

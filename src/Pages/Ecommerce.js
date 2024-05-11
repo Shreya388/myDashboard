@@ -1,8 +1,7 @@
 import React from "react";
-import { Row, Col, Card, Dropdown } from "react-bootstrap";
-import { faSearch } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Row, Col, Card } from "react-bootstrap";
 import CardDetails from "../CardDetails.json";
+import "./ecommerce.css";
 
 const Section = ({ img, title, description, price }) => (
     <Col md={6} lg={4} sm={12}>
@@ -18,32 +17,9 @@ const Section = ({ img, title, description, price }) => (
 );
 
 const Ecommerce = () => (
-    <>
-    <div className="pt-4">
+    <div className="ecommerce">
+    <div className="p-4">
         <h5>Product</h5>
-        <Col lg={8} md={12} sm={12}>
-        <Row>
-            <Col md={6} lg={8} sm={6}>
-                <form>
-                    <input className="product-search" type="text" placeholder="Search Products..." />
-                    <button type="submit" className="search-btn2"> <FontAwesomeIcon icon={faSearch} /></button>
-                </form>
-            </Col>
-            <Col md={6} lg={4} sm={6}>
-                <Dropdown>
-                    <Dropdown.Toggle id="dropdown-basic" className="filter">
-                        Filters
-                    </Dropdown.Toggle>
-                    <Dropdown.Menu>
-                        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-                    </Dropdown.Menu>
-                </Dropdown>
-            </Col>
-        </Row>
-        </Col>
-        <br />
         {[...Array(1)].map((_, index) => (
             <Row key={index}>
                 {CardDetails.products.map((product, i) => (
@@ -58,7 +34,7 @@ const Ecommerce = () => (
             </Row>
         ))}
     </div>
-    </>
+    </div>
 );
 
 export default Ecommerce;
